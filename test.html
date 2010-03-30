@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Raterize Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="description" content="description here">
+    <meta name="keywords" content="keyword">
+    <link rel="stylesheet" href="example.css" type="text/css" media="screen" >
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.raterize.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function() {
+        $("form").raterize();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="name">
+      <div id="name">
+        <form action="test_submit" method="get" accept-charset="utf-8" class='reviews'>
+          <input type="radio"  value="1" />
+          <input type="radio"  value="2" />
+          <input type="radio"  value="3" />
+          <input type="radio"  value="4" />
+          <input type="radio"  value="5" />
+        </form>
+      </div>
+      <br/><br/>
+      <div id="name">
+        <form action="test_submit" method="get" accept-charset="utf-8" class='reviews'>
+          <input type="radio"  value="1"  />
+          <input type="radio"  value="2"  />
+          <input type="radio"  value="3"  />
+          <input type="radio"  value="4"  />
+          <input type="radio"  value="5"  />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
